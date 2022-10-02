@@ -37,3 +37,80 @@ body {
   color:white
 
 }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap");
+
+:root {
+  --dark: #1d1d1d;
+  --light: #fff;
+  --green: #28a92b;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+  font-family: "Signika Negative", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.greensock-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--green);
+  font-weight: 600;
+  color: var(--light);
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.menu {
+  width: 200px;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: -200px;
+}
+
+.gallery {
+  width: 80%;
+  height: 80%;
+  margin-left: 250px;
+  border: solid 1px black;
+}
+
+.thumbnail { 
+  width: 150px;
+  height: 150px;
+}
+
+.bigImage{
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  left:0px;
+  top:0px;
+}

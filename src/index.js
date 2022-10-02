@@ -13,8 +13,10 @@ import {useKeycode, useKeycodes} from '@accessible/use-keycode'
 import { useWindowSize } from '@react-hook/window-size';
 import { browserName, BrowserView, browserVersion, fullBrowserVersion } from "react-device-detect";
 import isWebglEnabled from 'is-webgl-enabled';
+import Greensock from './Greensock';
 
 const items = [
+  (<Greensock />),
   (<App />),
   (<BreathingDots />),
   (<ReflectiveTriangles />),
